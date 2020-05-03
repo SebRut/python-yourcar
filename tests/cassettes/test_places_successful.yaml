@@ -1,0 +1,63 @@
+interactions:
+- request:
+    body: null
+    headers:
+      X-API-KEY:
+      - DUMMY_API_KEY
+    method: GET
+    uri: https://de1.cantamen.de/casirest/v2/places?lat=54.0833&lng=12.1333&range=2000
+  response:
+    body:
+      string: "[{\"id\":\"4402\",\"provId\":\"99\",\"name\":\"August-Bebel-Str. 71\",\"geoPosition\":{\"latitude\":54.085047,\"longitude\":12.133862},\"isFixed\":true,\"address\":{\"street\":\"Barnstorfer
+        Weg\",\"streetNr\":\"47\",\"postalCode\":\"18057\",\"city\":\"Rostock\",\"country\":\"DE\"},\"distance\":197.90026512182263},{\"id\":\"4597\",\"provId\":\"99\",\"name\":\"Wielandstra\xDFe
+        4\",\"geoPosition\":{\"latitude\":54.081006,\"longitude\":12.130922},\"isFixed\":true,\"address\":{\"street\":\"Wielandsta\xDFe\",\"streetNr\":\"4\",\"postalCode\":\"18055\",\"city\":\"Rostock\",\"country\":\"DE\"},\"distance\":299.0290903874018},{\"id\":\"4210\",\"provId\":\"99\",\"name\":\"Kr\xF6peliner
+        Stra\xDFe 32\",\"geoPosition\":{\"latitude\":54.088133,\"longitude\":12.132695},\"isFixed\":true,\"address\":{\"street\":\"Kr\xF6peliner
+        Str.\",\"streetNr\":\"32\",\"postalCode\":\"18055\",\"city\":\"Rostock\",\"country\":\"DE\"},\"distance\":539.3997711878187},{\"id\":\"4813\",\"provId\":\"99\",\"name\":\"Lindenstra\xDFe
+        7\",\"geoPosition\":{\"latitude\":54.084724,\"longitude\":12.141671},\"isFixed\":true,\"address\":{\"street\":\"Lindenstra\xDFe\",\"streetNr\":\"7\",\"postalCode\":\"18055\",\"city\":\"Rostock\",\"country\":\"DE\"},\"distance\":570.2972618828434},{\"id\":\"4420\",\"provId\":\"99\",\"name\":\"Herweghstra\xDFe
+        50\",\"geoPosition\":{\"latitude\":54.076996,\"longitude\":12.134228},\"isFixed\":true,\"address\":{\"street\":\"Herweghstra\xDFe\",\"streetNr\":\"50\",\"postalCode\":\"18055\",\"city\":\"Rostock\",\"country\":\"DE\"},\"distance\":704.2999690808305},{\"id\":\"4840\",\"provId\":\"99\",\"name\":\"Barnstorfer
+        Weg 46\",\"geoPosition\":{\"latitude\":54.088209,\"longitude\":12.121263},\"isFixed\":true,\"address\":{\"street\":\"Barnstorfer
+        Weg\",\"streetNr\":\"46\",\"postalCode\":\"18057\",\"city\":\"Rostock\",\"country\":\"DE\"},\"distance\":958.670063233785},{\"id\":\"3988\",\"provId\":\"99\",\"name\":\"Friedrichstra\xDFe
+        23\",\"geoPosition\":{\"latitude\":54.091006,\"longitude\":12.12323},\"isFixed\":true,\"address\":{\"street\":\"Patriotischer
+        Weg\",\"streetNr\":\"119A\",\"postalCode\":\"18057\",\"city\":\"Rostock\",\"country\":\"DE\"},\"distance\":1081.6365229250157},{\"id\":\"4814\",\"provId\":\"99\",\"name\":\"Warnowufer
+        29\",\"geoPosition\":{\"latitude\":54.092284,\"longitude\":12.12126},\"isFixed\":true,\"address\":{\"street\":\"Warnowufer\",\"streetNr\":\"29\",\"postalCode\":\"18057\",\"city\":\"Rostock\",\"country\":\"DE\"},\"distance\":1273.0659947874099},{\"id\":\"4176\",\"provId\":\"99\",\"name\":\"Fahnenstra\xDFe
+        2a\",\"geoPosition\":{\"latitude\":54.083485,\"longitude\":12.112631},\"isFixed\":true,\"address\":{\"street\":\"Fahnenstra\xDFe\",\"streetNr\":\"2a\",\"postalCode\":\"18057\",\"city\":\"Rostock\",\"country\":\"DE\"},\"distance\":1352.8320149688698},{\"id\":\"4430\",\"provId\":\"99\",\"name\":\"Felix-Stillfried-Str.
+        17\",\"geoPosition\":{\"latitude\":54.080276,\"longitude\":12.109299},\"isFixed\":true,\"address\":{\"street\":\"Felix-Stillfried-Str.
+        17\",\"streetNr\":\"17\",\"postalCode\":\"18059\",\"city\":\"Rostock\",\"country\":\"DE\"},\"distance\":1606.4551005951039},{\"id\":\"4039\",\"provId\":\"99\",\"name\":\"Budapester
+        Stra\xDFe 80a\",\"geoPosition\":{\"latitude\":54.090672,\"longitude\":12.112046},\"isFixed\":true,\"address\":{\"street\":\"Budapester
+        Stra\xDFe\",\"streetNr\":\"80A\",\"postalCode\":\"18057\",\"city\":\"Rostock\",\"country\":\"DE\"},\"distance\":1614.8507165056071},{\"id\":\"4394\",\"provId\":\"99\",\"name\":\"Ulmenstra\xDFe
+        45\",\"geoPosition\":{\"latitude\":54.087745,\"longitude\":12.108344},\"isFixed\":true,\"address\":{\"street\":\"Ulmenstra\xDFe\",\"streetNr\":\"45\",\"postalCode\":\"18057\",\"city\":\"Rostock\",\"country\":\"DE\"},\"distance\":1706.4505458431038},{\"id\":\"4815\",\"provId\":\"99\",\"name\":\"Elisabethstra\xDFe
+        17\",\"geoPosition\":{\"latitude\":54.089152,\"longitude\":12.107184},\"isFixed\":true,\"address\":{\"street\":\"Elisabethstra\xDFe\",\"streetNr\":\"17\",\"postalCode\":\"18057\",\"city\":\"Rostock\",\"country\":\"DE\"},\"distance\":1828.956382096209},{\"id\":\"4363\",\"provId\":\"99\",\"name\":\"Lomonossowstra\xDFe
+        29\",\"geoPosition\":{\"latitude\":54.06702,\"longitude\":12.123232},\"isFixed\":true,\"address\":{\"street\":\"Lomonossowstra\xDFe\",\"streetNr\":\"29\",\"postalCode\":\"18059\",\"city\":\"Rostock\",\"country\":\"DE\"},\"distance\":1928.1877335648671},{\"id\":\"4883\",\"provId\":\"99\",\"name\":\"Pawlowstr.
+        22\",\"geoPosition\":{\"latitude\":54.070167,\"longitude\":12.113466},\"isFixed\":true,\"address\":{\"street\":\"Pawlowstra\xDFe\",\"streetNr\":\"22\",\"postalCode\":\"18059\",\"city\":\"Rostock\",\"country\":\"DE\"},\"distance\":1955.0552603659312}]"
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - origin, x-requested-with, content-type, authorization, x-api-key, idempotency-key,
+        x-technical-admin
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Link, X-Total-Count, Warning
+      Age:
+      - '4'
+      Cache-Control:
+      - max-age=0
+      Content-Length:
+      - '4012'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 03 May 2020 10:06:23 GMT
+      ETag:
+      - HASH_49927bd8-FC_b295400a_5eae979a_5eae979b
+      Expires:
+      - Sun, 03 May 2020 10:06:22 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Vary:
+      - Origin,Accept-Encoding,User-Agent
+    status:
+      code: 200
+      message: OK
+version: 1
