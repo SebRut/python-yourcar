@@ -1,2 +1,2 @@
 requests~=2.24.0
-jsons~=1.1.2
+jsons~=1.2.0
